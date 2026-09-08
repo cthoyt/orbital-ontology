@@ -2,7 +2,7 @@ format:
     uv run --script lint.py
     npx --yes prettier --check --prose-wrap always --write '**/*.md'
 
-convert:
+build:
     robot template \
       --add-prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --add-prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
