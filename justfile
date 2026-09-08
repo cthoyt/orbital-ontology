@@ -4,14 +4,19 @@ format:
 
 convert:
     robot template \
-      --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
-      --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
-      --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --add-prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
+      --add-prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
+      --add-prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
       --template src/roots.tsv \
       --template src/properties.tsv \
       --template src/terms.tsv \
       --output src/tmp.owl
     robot merge \
+      --add-prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
+      --add-prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
+      --add-prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
       --input src/metadata.ofn \
       --input src/tmp.owl \
+      --output orbital.obo \
+      --output orbital.json \
       --output orbital.owl

@@ -8,6 +8,9 @@
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:purl="http://purl.obolibrary.org/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CHEBI="http://purl.obolibrary.org/obo/CHEBI_"
+     xmlns:ChEMROF="https://chemkg.github.io/chemrof/"
+     xmlns:ORBITAL="http://w3id.org/biopragmatics/orbital/term/"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://github.com/cthoyt/orbital-ontology/raw/refs/heads/main/orbital.owl">
         <purl:IAO_0000700 rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000001"/>

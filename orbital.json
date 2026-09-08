@@ -1,0 +1,2564 @@
+{
+  "graphs" : [ {
+    "id" : "https://github.com/cthoyt/orbital-ontology/raw/refs/heads/main/orbital.owl",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.obolibrary.org/IAO_0000700",
+        "val" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+      }, {
+        "pred" : "http://purl.obolibrary.org/IAO_0000700",
+        "val" : "http://w3id.org/biopragmatics/orbital/term/0100000"
+      }, {
+        "pred" : "http://purl.org/dc/terms/creator",
+        "val" : "https://orcid.org/0000-0003-4423-4370"
+      }, {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "An ontology for atomic and molecular orbitals"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://spdx.org/licenses/CC0-1.0"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Orbital Ontology"
+      }, {
+        "pred" : "http://usefulinc.com/ns/doap#Repository",
+        "val" : "https://github.com/cthoyt/orbital-ontology"
+      } ]
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/NCBITaxon_9606",
+      "lbl" : "human",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000001",
+      "lbl" : "atomic orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000002",
+      "lbl" : "atomic orbital by principle quantum number",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000003",
+      "lbl" : "1 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000004",
+      "lbl" : "2 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000005",
+      "lbl" : "3 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000006",
+      "lbl" : "4 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000007",
+      "lbl" : "5 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000008",
+      "lbl" : "6 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000009",
+      "lbl" : "7 shell",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000010",
+      "lbl" : "atomic orbital by azimuthal quantum number",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000011",
+      "lbl" : "s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000012",
+      "lbl" : "p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000013",
+      "lbl" : "d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000014",
+      "lbl" : "f orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000015",
+      "lbl" : "g orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000016",
+      "lbl" : "h orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000017",
+      "lbl" : "i orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000018",
+      "lbl" : "atomic orbital by principle and azimuthal quantum number",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000019",
+      "lbl" : "1s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000020",
+      "lbl" : "2s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000021",
+      "lbl" : "2p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000022",
+      "lbl" : "3s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000023",
+      "lbl" : "3p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000024",
+      "lbl" : "3d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000025",
+      "lbl" : "4s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000026",
+      "lbl" : "4p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000027",
+      "lbl" : "4d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000028",
+      "lbl" : "4f orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000029",
+      "lbl" : "5s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000030",
+      "lbl" : "5p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000031",
+      "lbl" : "5d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000032",
+      "lbl" : "5f orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000033",
+      "lbl" : "5g orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000034",
+      "lbl" : "6s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000035",
+      "lbl" : "6p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000036",
+      "lbl" : "6d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000037",
+      "lbl" : "6f orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000038",
+      "lbl" : "6g orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000039",
+      "lbl" : "6h orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000040",
+      "lbl" : "7s orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000041",
+      "lbl" : "7p orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000042",
+      "lbl" : "7d orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000043",
+      "lbl" : "7f orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000044",
+      "lbl" : "7g orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000045",
+      "lbl" : "7h orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000046",
+      "lbl" : "7i orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000047",
+      "lbl" : "atomic orbital cartesian equation",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000048",
+      "lbl" : "s orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=0 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000049",
+      "lbl" : "pz orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=1 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000050",
+      "lbl" : "px orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=1 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000051",
+      "lbl" : "py orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=1 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000052",
+      "lbl" : "dz² orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000053",
+      "lbl" : "dxz orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=2 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000054",
+      "lbl" : "dyz orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=2 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000055",
+      "lbl" : "dxy orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=2 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000056",
+      "lbl" : "dx²-y² orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=2 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000057",
+      "lbl" : "fz³ orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000058",
+      "lbl" : "fxz² orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000059",
+      "lbl" : "fyz² orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000060",
+      "lbl" : "fxyz orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000061",
+      "lbl" : "fz(x²-y²) orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000062",
+      "lbl" : "fx(x²-3y²) orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000063",
+      "lbl" : "fy(3x²-y²) orbital equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=3 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000064",
+      "lbl" : "gz⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000065",
+      "lbl" : "gz³x equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000066",
+      "lbl" : "gz³y equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000067",
+      "lbl" : "gz²(x²-y²) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000068",
+      "lbl" : "gxyz² equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000069",
+      "lbl" : "gz(x³-3xy²) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000070",
+      "lbl" : "gy(3x²-y²)z equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000071",
+      "lbl" : "gx⁴-6x²y²+y⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000072",
+      "lbl" : "gxy(x²-y²) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=4 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000073",
+      "lbl" : "hz⁵ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000074",
+      "lbl" : "hxz⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000075",
+      "lbl" : "hyz⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000076",
+      "lbl" : "hz³xy equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000077",
+      "lbl" : "hz³(x²-y²) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000078",
+      "lbl" : "hz²x³ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000079",
+      "lbl" : "hz²y³ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000080",
+      "lbl" : "hz(4x³y-4xy³) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000081",
+      "lbl" : "hz(x⁴-6x²y²+y⁴) equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000082",
+      "lbl" : "hxy⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±5"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000083",
+      "lbl" : "hyx⁴ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=5 and m_l=±5"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000084",
+      "lbl" : "i₀ equation",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=0"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000085",
+      "lbl" : "i₁ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000086",
+      "lbl" : "i₁ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±1"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000087",
+      "lbl" : "i₂ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000088",
+      "lbl" : "i₂ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±2"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000089",
+      "lbl" : "i₃ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000090",
+      "lbl" : "i₃ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±3"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000091",
+      "lbl" : "i₄ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000092",
+      "lbl" : "i₄ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±4"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000093",
+      "lbl" : "i₅ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±5"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000094",
+      "lbl" : "i₅ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±5"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000095",
+      "lbl" : "i₆ equation 1",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±6"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000096",
+      "lbl" : "i₆ equation 2",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "for m=6 and m_l=±6"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000100",
+      "lbl" : "atomic orbital by principal, azimuthal, and magnetic quantum number",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000101",
+      "lbl" : "1s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000102",
+      "lbl" : "2s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000103",
+      "lbl" : "2p₀ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Typically written with cartesian equation pz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000104",
+      "lbl" : "2p₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 2px and 2py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000105",
+      "lbl" : "2p₋₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 2px and 2py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000106",
+      "lbl" : "3s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000107",
+      "lbl" : "3p₀ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Typically written as cartesian equation 3pz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000108",
+      "lbl" : "3p₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3px and 3py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000109",
+      "lbl" : "3p₋₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3px and 3py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000110",
+      "lbl" : "3d₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000111",
+      "lbl" : "3d₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3dxz and 3dyz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000112",
+      "lbl" : "3d₋₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3dxz and 3dyz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000113",
+      "lbl" : "3d₂ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3dxy and 3dx²-y² "
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000114",
+      "lbl" : "3d₋₂ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "Linear combination of cartesian equations 3dxy and 3dx²-y²"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000115",
+      "lbl" : "4s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000116",
+      "lbl" : "4p₀ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4pz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000117",
+      "lbl" : "4p₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4px and 4py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000118",
+      "lbl" : "4p₋₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4px and 4py"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000119",
+      "lbl" : "4d₀ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4dz² and 4dxz"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000120",
+      "lbl" : "4d₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000121",
+      "lbl" : "4d₋₁ orbital",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4dyz and "
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000122",
+      "lbl" : "4d₂ orbital ",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4dxy and 4dx²-y² "
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000123",
+      "lbl" : "4d₋₂ orbital ",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "4dxy and 4dx²-y²"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000124",
+      "lbl" : "4f₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000125",
+      "lbl" : "4f₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000126",
+      "lbl" : "4f₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000127",
+      "lbl" : "4f₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000128",
+      "lbl" : "4f₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000129",
+      "lbl" : "4f₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000130",
+      "lbl" : "4f₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000131",
+      "lbl" : "5s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000132",
+      "lbl" : "5p₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000133",
+      "lbl" : "5p₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000134",
+      "lbl" : "5p₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000135",
+      "lbl" : "5d₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000136",
+      "lbl" : "5d₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000137",
+      "lbl" : "5d₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000138",
+      "lbl" : "5d₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000139",
+      "lbl" : "5d₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000140",
+      "lbl" : "5f₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000141",
+      "lbl" : "5f₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000142",
+      "lbl" : "5f₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000143",
+      "lbl" : "5f₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000144",
+      "lbl" : "5f₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000145",
+      "lbl" : "5f₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000146",
+      "lbl" : "5f₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000147",
+      "lbl" : "5g₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000148",
+      "lbl" : "5g₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000149",
+      "lbl" : "5g₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000150",
+      "lbl" : "5g₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000151",
+      "lbl" : "5g₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000152",
+      "lbl" : "5g₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000153",
+      "lbl" : "5g₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000154",
+      "lbl" : "5g₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000155",
+      "lbl" : "5g₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000156",
+      "lbl" : "6s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000157",
+      "lbl" : "6p₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000158",
+      "lbl" : "6p₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000159",
+      "lbl" : "6p₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000160",
+      "lbl" : "6d₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000161",
+      "lbl" : "6d₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000162",
+      "lbl" : "6d₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000163",
+      "lbl" : "6d₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000164",
+      "lbl" : "6d₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000165",
+      "lbl" : "6f₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000166",
+      "lbl" : "6f₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000167",
+      "lbl" : "6f₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000168",
+      "lbl" : "6f₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000169",
+      "lbl" : "6f₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000170",
+      "lbl" : "6f₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000171",
+      "lbl" : "6f₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000172",
+      "lbl" : "6g₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000173",
+      "lbl" : "6g₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000174",
+      "lbl" : "6g₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000175",
+      "lbl" : "6g₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000176",
+      "lbl" : "6g₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000177",
+      "lbl" : "6g₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000178",
+      "lbl" : "6g₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000179",
+      "lbl" : "6g₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000180",
+      "lbl" : "6g₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000181",
+      "lbl" : "6h₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000182",
+      "lbl" : "6h₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000183",
+      "lbl" : "6h₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000184",
+      "lbl" : "6h₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000185",
+      "lbl" : "6h₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000186",
+      "lbl" : "6h₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000187",
+      "lbl" : "6h₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000188",
+      "lbl" : "6h₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000189",
+      "lbl" : "6h₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000190",
+      "lbl" : "6h₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000191",
+      "lbl" : "6h₋₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000192",
+      "lbl" : "7s₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000193",
+      "lbl" : "7p₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000194",
+      "lbl" : "7p₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000195",
+      "lbl" : "7p₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000196",
+      "lbl" : "7d₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000197",
+      "lbl" : "7d₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000198",
+      "lbl" : "7d₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000199",
+      "lbl" : "7d₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000200",
+      "lbl" : "7d₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000201",
+      "lbl" : "7f₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000202",
+      "lbl" : "7f₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000203",
+      "lbl" : "7f₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000204",
+      "lbl" : "7f₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000205",
+      "lbl" : "7f₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000206",
+      "lbl" : "7f₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000207",
+      "lbl" : "7f₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000208",
+      "lbl" : "7g₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000209",
+      "lbl" : "7g₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000210",
+      "lbl" : "7g₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000211",
+      "lbl" : "7g₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000212",
+      "lbl" : "7g₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000213",
+      "lbl" : "7g₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000214",
+      "lbl" : "7g₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000215",
+      "lbl" : "7g₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000216",
+      "lbl" : "7g₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000217",
+      "lbl" : "7h₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000218",
+      "lbl" : "7h₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000219",
+      "lbl" : "7h₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000220",
+      "lbl" : "7h₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000221",
+      "lbl" : "7h₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000222",
+      "lbl" : "7h₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000223",
+      "lbl" : "7h₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000224",
+      "lbl" : "7h₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000225",
+      "lbl" : "7h₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000226",
+      "lbl" : "7h₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000227",
+      "lbl" : "7h₋₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000228",
+      "lbl" : "7i₀ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000229",
+      "lbl" : "7i₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000230",
+      "lbl" : "7i₋₁ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000231",
+      "lbl" : "7i₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000232",
+      "lbl" : "7i₋₂ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000233",
+      "lbl" : "7i₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000234",
+      "lbl" : "7i₋₃ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000235",
+      "lbl" : "7i₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000236",
+      "lbl" : "7i₋₄ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000237",
+      "lbl" : "7i₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000238",
+      "lbl" : "7i₋₅ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000239",
+      "lbl" : "7i₆ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000240",
+      "lbl" : "7i₋₆ orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000300",
+      "lbl" : "atomic orbital by magnetic quantum number",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000301",
+      "lbl" : "orbital with mₗ=0",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000302",
+      "lbl" : "orbital with mₗ=±1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000303",
+      "lbl" : "orbital with mₗ=-1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000304",
+      "lbl" : "orbital with mₗ=+1",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000305",
+      "lbl" : "orbital with mₗ=±2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000306",
+      "lbl" : "orbital with mₗ=+2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000307",
+      "lbl" : "orbital with mₗ=-2",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000308",
+      "lbl" : "orbital with mₗ=±3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000309",
+      "lbl" : "orbital with mₗ=+3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000310",
+      "lbl" : "orbital with mₗ=-3",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000311",
+      "lbl" : "orbital with mₗ=±4",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000312",
+      "lbl" : "orbital with mₗ=+4",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000313",
+      "lbl" : "orbital with mₗ=-4",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000314",
+      "lbl" : "orbital with mₗ=±5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000315",
+      "lbl" : "orbital with mₗ=+5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000316",
+      "lbl" : "orbital with mₗ=-5",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000317",
+      "lbl" : "orbital with mₗ=±6",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000318",
+      "lbl" : "orbital with mₗ=+6",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0000319",
+      "lbl" : "orbital with mₗ=-6",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/0100000",
+      "lbl" : "molecular orbital",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://spdx.org/licenses/CC0-1.0",
+      "lbl" : "CC0 1.0",
+      "type" : "CLASS"
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/1000000",
+      "lbl" : "has principal quantum number",
+      "type" : "PROPERTY",
+      "propertyType" : "DATA",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "n, takes on natural values [1,2,3,...)"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/1000001",
+      "lbl" : "has azimuthal quantum number",
+      "type" : "PROPERTY",
+      "propertyType" : "DATA",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "l, takes on non-negative integer values between [0, n-1]"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/1000002",
+      "lbl" : "has magnetic quantum number",
+      "type" : "PROPERTY",
+      "propertyType" : "DATA",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "m_l, takes on integer values between [-l, l]"
+        } ]
+      }
+    }, {
+      "id" : "http://w3id.org/biopragmatics/orbital/term/1000003",
+      "lbl" : "has spin magnetic quantum number",
+      "type" : "PROPERTY",
+      "propertyType" : "DATA",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/description",
+          "val" : "m_s, for an electron can be one of {-1/2, 1/2}"
+        } ]
+      }
+    }, {
+      "id" : "https://orcid.org/0000-0003-4423-4370",
+      "lbl" : "Charles Tapley Hoyt",
+      "type" : "INDIVIDUAL"
+    }, {
+      "id" : "http://purl.obolibrary.org/IAO_0000700",
+      "lbl" : "has ontology root term",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/creator",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/description",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    }, {
+      "id" : "http://usefulinc.com/ns/doap#Repository",
+      "type" : "PROPERTY",
+      "propertyType" : "ANNOTATION"
+    } ],
+    "edges" : [ {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000002",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000003",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000004",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000005",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000006",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000007",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000008",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000009",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000002"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000010",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000011",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000012",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000013",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000014",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000015",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000016",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000017",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000010"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000018",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000019",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000020",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000021",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000022",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000023",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000024",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000025",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000026",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000027",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000028",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000029",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000030",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000031",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000032",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000033",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000034",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000035",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000036",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000037",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000038",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000039",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000040",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000041",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000042",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000043",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000044",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000045",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000046",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000018"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000048",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000049",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000050",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000051",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000052",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000053",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000054",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000055",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000056",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000057",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000058",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000059",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000060",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000061",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000062",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000063",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000064",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000065",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000066",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000067",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000068",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000069",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000070",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000071",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000072",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000073",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000074",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000075",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000076",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000077",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000078",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000079",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000080",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000081",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000082",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000083",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000084",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000085",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000086",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000087",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000088",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000089",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000090",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000091",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000092",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000093",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000094",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000095",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000096",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000047"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000100",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000101",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000102",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000103",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000104",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000105",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000106",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000107",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000108",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000109",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000110",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000111",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000112",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000113",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000114",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000115",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000116",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000117",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000118",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000119",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000120",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000121",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000122",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000123",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000124",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000125",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000126",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000127",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000128",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000129",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000130",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000131",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000132",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000133",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000134",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000135",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000136",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000137",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000138",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000139",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000140",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000141",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000142",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000143",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000144",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000145",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000146",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000147",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000148",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000149",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000150",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000151",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000152",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000153",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000154",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000155",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000156",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000157",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000158",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000159",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000160",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000161",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000162",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000163",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000164",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000165",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000166",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000167",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000168",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000169",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000170",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000171",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000172",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000173",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000174",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000175",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000176",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000177",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000178",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000179",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000180",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000181",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000182",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000183",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000184",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000185",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000186",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000187",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000188",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000189",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000190",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000191",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000192",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000193",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000194",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000195",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000196",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000197",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000198",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000199",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000200",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000201",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000202",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000203",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000204",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000205",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000206",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000207",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000208",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000209",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000210",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000211",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000212",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000213",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000214",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000215",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000216",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000217",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000218",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000219",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000220",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000221",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000222",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000223",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000224",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000225",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000226",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000227",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000228",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000229",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000230",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000231",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000232",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000233",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000234",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000235",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000236",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000237",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000238",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000239",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000240",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000100"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000300",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000001"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000301",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000302",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000303",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000302"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000304",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000302"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000305",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000306",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000305"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000307",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000305"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000308",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000309",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000308"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000310",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000308"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000311",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000312",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000311"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000313",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000311"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000314",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000315",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000314"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000316",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000314"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000317",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000300"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000318",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000317"
+    }, {
+      "sub" : "http://w3id.org/biopragmatics/orbital/term/0000319",
+      "pred" : "is_a",
+      "obj" : "http://w3id.org/biopragmatics/orbital/term/0000317"
+    }, {
+      "sub" : "https://orcid.org/0000-0003-4423-4370",
+      "pred" : "type",
+      "obj" : "http://purl.obolibrary.org/NCBITaxon_9606"
+    } ]
+  } ]
+}
