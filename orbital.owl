@@ -172,7 +172,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>1 orbital</rdfs:label>
+        <rdfs:label>1 shell</rdfs:label>
     </owl:Class>
     
 
@@ -187,7 +187,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>2 orbital</rdfs:label>
+        <rdfs:label>2 shell</rdfs:label>
     </owl:Class>
     
 
@@ -202,7 +202,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>3 orbital</rdfs:label>
+        <rdfs:label>3 shell</rdfs:label>
     </owl:Class>
     
 
@@ -217,7 +217,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>4 orbital</rdfs:label>
+        <rdfs:label>4 shell</rdfs:label>
     </owl:Class>
     
 
@@ -232,7 +232,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>5 orbital</rdfs:label>
+        <rdfs:label>5 shell</rdfs:label>
     </owl:Class>
     
 
@@ -247,7 +247,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>6 orbital</rdfs:label>
+        <rdfs:label>6 shell</rdfs:label>
     </owl:Class>
     
 
@@ -262,7 +262,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>7 orbital</rdfs:label>
+        <rdfs:label>7 shell</rdfs:label>
     </owl:Class>
     
 
@@ -1583,7 +1583,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000084">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=0</dcterms:description>
-        <rdfs:label>i0 equation</rdfs:label>
+        <rdfs:label>i₀ equation</rdfs:label>
     </owl:Class>
     
 
@@ -1593,7 +1593,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000085">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±1</dcterms:description>
-        <rdfs:label>i+1 equation</rdfs:label>
+        <rdfs:label>i₁ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1603,7 +1603,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000086">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±1</dcterms:description>
-        <rdfs:label>i-1 equation</rdfs:label>
+        <rdfs:label>i₁ equation 2</rdfs:label>
     </owl:Class>
     
 
@@ -1613,7 +1613,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000087">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±2</dcterms:description>
-        <rdfs:label>i+2 equation</rdfs:label>
+        <rdfs:label>i₂ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1623,7 +1623,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000088">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±2</dcterms:description>
-        <rdfs:label>i-2 equation</rdfs:label>
+        <rdfs:label>i₂ equation 2</rdfs:label>
     </owl:Class>
     
 
@@ -1633,7 +1633,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000089">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±3</dcterms:description>
-        <rdfs:label>i+3 equation</rdfs:label>
+        <rdfs:label>i₃ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1643,7 +1643,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000090">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±3</dcterms:description>
-        <rdfs:label>i-3 equation</rdfs:label>
+        <rdfs:label>i₃ equation 2</rdfs:label>
     </owl:Class>
     
 
@@ -1653,7 +1653,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000091">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±4</dcterms:description>
-        <rdfs:label>i+4 equation</rdfs:label>
+        <rdfs:label>i₄ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1663,7 +1663,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000092">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±4</dcterms:description>
-        <rdfs:label>i-4 equation</rdfs:label>
+        <rdfs:label>i₄ equation 2</rdfs:label>
     </owl:Class>
     
 
@@ -1673,7 +1673,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000093">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±5</dcterms:description>
-        <rdfs:label>i+5 equation</rdfs:label>
+        <rdfs:label>i₅ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1683,7 +1683,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000094">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±5</dcterms:description>
-        <rdfs:label>i-5 equation</rdfs:label>
+        <rdfs:label>i₅ equation 2</rdfs:label>
     </owl:Class>
     
 
@@ -1693,7 +1693,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000095">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±6</dcterms:description>
-        <rdfs:label>i+6 equation</rdfs:label>
+        <rdfs:label>i₆ equation 1</rdfs:label>
     </owl:Class>
     
 
@@ -1703,7 +1703,7 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000096">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000047"/>
         <dcterms:description>for m=6 and m_l=±6</dcterms:description>
-        <rdfs:label>i-6 equation</rdfs:label>
+        <rdfs:label>i₆ equation 2</rdfs:label>
     </owl:Class>
     
 
