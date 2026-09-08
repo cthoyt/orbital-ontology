@@ -9,7 +9,7 @@ convert:
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
       --template src/roots.tsv \
       --template src/properties.tsv \
-      --template src/orbitals.tsv \
+      --template src/terms.tsv \
       --output src/tmp.owl
     robot merge \
       --input src/metadata.ofn \
