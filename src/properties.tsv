@@ -5,4 +5,3 @@ ORBITAL:1000001	data property	has azimuthal quantum number	l, takes on non-negat
 ORBITAL:1000002	data property	has magnetic quantum number	m_l, takes on integer values between [-l, l]	https://en.wikipedia.org/wiki/Magnetic_quantum_number	'atomic orbital'	xsd:integer	functional
 ORBITAL:1000003	data property	has spin magnetic quantum number	m_s, for an electron can be one of {-1/2, 1/2}	https://en.wikipedia.org/wiki/Spin_quantum_number			
 ORBITAL:1000003	data property	has spin magnetic quantum number	m_s, for an electron can be one of {-1/2, 1/2}	https://en.wikipedia.org/wiki/Spin_quantum_number			
-ORBITAL:1000004	data property	equation applicable for principle quantum number				xsd:integer	
