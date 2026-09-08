@@ -1,6 +1,6 @@
 identifier	type	label	parent	intersection	description	sce	principal quantum number	azimuthal quantum number	magnetic quantum number	see also	depiction
 ID	TYPE	AT rdfs:label^^xsd:string	SC %	SC %	AT dc:description^^xsd:string	SC %	SC 'has principal quantum number' value %	SC 'has azimuthal quantum number' value %	SC 'has magnetic quantum number' value %		
-ORBITAL:0000002	class	atomic orbital by principle quantum number	ORBITAL:0000001
+ORBITAL:0000002	class	atomic orbital by principle quantum number	ORBITAL:0000001								
 ORBITAL:0000003	class	1 shell	ORBITAL:0000002				1				
 ORBITAL:0000004	class	2 shell	ORBITAL:0000002				2				
 ORBITAL:0000005	class	3 shell	ORBITAL:0000002				3				
@@ -82,19 +82,19 @@ ORBITAL:0000080	class	hz(4x³y-4xy³) equation	ORBITAL:0000047		for m=5 and m_l=
 ORBITAL:0000081	class	hz(x⁴-6x²y²+y⁴) equation	ORBITAL:0000047		for m=5 and m_l=±4						
 ORBITAL:0000082	class	hxy⁴ equation	ORBITAL:0000047		for m=5 and m_l=±5						
 ORBITAL:0000083	class	hyx⁴ equation	ORBITAL:0000047		for m=5 and m_l=±5						
-ORBITAL:0000084	class	i₀ equation	ORBITAL:0000047		for m=6 and m_l=0
-ORBITAL:0000085	class	i₁ equation 1	ORBITAL:0000047		for m=6 and m_l=±1
-ORBITAL:0000086	class	i₁ equation 2	ORBITAL:0000047		for m=6 and m_l=±1
-ORBITAL:0000087	class	i₂ equation 1	ORBITAL:0000047		for m=6 and m_l=±2
-ORBITAL:0000088	class	i₂ equation 2	ORBITAL:0000047		for m=6 and m_l=±2
-ORBITAL:0000089	class	i₃ equation 1	ORBITAL:0000047		for m=6 and m_l=±3
-ORBITAL:0000090	class	i₃ equation 2	ORBITAL:0000047		for m=6 and m_l=±3
-ORBITAL:0000091	class	i₄ equation 1	ORBITAL:0000047		for m=6 and m_l=±4
-ORBITAL:0000092	class	i₄ equation 2	ORBITAL:0000047		for m=6 and m_l=±4
-ORBITAL:0000093	class	i₅ equation 1	ORBITAL:0000047		for m=6 and m_l=±5
-ORBITAL:0000094	class	i₅ equation 2	ORBITAL:0000047		for m=6 and m_l=±5
-ORBITAL:0000095	class	i₆ equation 1	ORBITAL:0000047		for m=6 and m_l=±6
-ORBITAL:0000096	class	i₆ equation 2	ORBITAL:0000047		for m=6 and m_l=±6
+ORBITAL:0000084	class	i₀ equation	ORBITAL:0000047		for m=6 and m_l=0						
+ORBITAL:0000085	class	i₁ equation 1	ORBITAL:0000047		for m=6 and m_l=±1						
+ORBITAL:0000086	class	i₁ equation 2	ORBITAL:0000047		for m=6 and m_l=±1						
+ORBITAL:0000087	class	i₂ equation 1	ORBITAL:0000047		for m=6 and m_l=±2						
+ORBITAL:0000088	class	i₂ equation 2	ORBITAL:0000047		for m=6 and m_l=±2						
+ORBITAL:0000089	class	i₃ equation 1	ORBITAL:0000047		for m=6 and m_l=±3						
+ORBITAL:0000090	class	i₃ equation 2	ORBITAL:0000047		for m=6 and m_l=±3						
+ORBITAL:0000091	class	i₄ equation 1	ORBITAL:0000047		for m=6 and m_l=±4						
+ORBITAL:0000092	class	i₄ equation 2	ORBITAL:0000047		for m=6 and m_l=±4						
+ORBITAL:0000093	class	i₅ equation 1	ORBITAL:0000047		for m=6 and m_l=±5						
+ORBITAL:0000094	class	i₅ equation 2	ORBITAL:0000047		for m=6 and m_l=±5						
+ORBITAL:0000095	class	i₆ equation 1	ORBITAL:0000047		for m=6 and m_l=±6						
+ORBITAL:0000096	class	i₆ equation 2	ORBITAL:0000047		for m=6 and m_l=±6						
 ORBITAL:0000100	class	atomic orbital by principal, azimuthal, and magnetic quantum number	ORBITAL:0000001								
 ORBITAL:0000101	class	1s₀ orbital	ORBITAL:0000100	'1s orbital' and 'orbital with magnetic quantum number 0'			1	0	0		
 ORBITAL:0000102	class	2s₀ orbital	ORBITAL:0000100	'2s orbital' and 'orbital with magnetic quantum number 0'			2	0	0		
