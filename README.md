@@ -2,10 +2,10 @@
 
 An ontology describing atomic and molecular orbitals.
 
-## Build
+## Contributing
 
-Build the output OWL (XML), OBO, and OBO Graph JSON outputs
-in the root of the repository with:
+Edit any of the source files in the `src/` directory, then build the output OWL
+(XML), OBO, and OBO Graph JSON outputs in the root of the repository with:
 
 ```console
 $ just build
