@@ -6647,7 +6647,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number 0</rdfs:label>
+        <rdfs:label>orbital with mₗ=0</rdfs:label>
     </owl:Class>
     
 
@@ -6657,20 +6657,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000302">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±1</rdfs:label>
+        <rdfs:label>orbital with mₗ=±1</rdfs:label>
     </owl:Class>
     
 
@@ -6685,7 +6693,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-1</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -1</rdfs:label>
+        <rdfs:label>orbital with mₗ=-1</rdfs:label>
     </owl:Class>
     
 
@@ -6700,7 +6708,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +1</rdfs:label>
+        <rdfs:label>orbital with mₗ=+1</rdfs:label>
     </owl:Class>
     
 
@@ -6710,20 +6718,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000305">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±2</rdfs:label>
+        <rdfs:label>orbital with mₗ=±2</rdfs:label>
     </owl:Class>
     
 
@@ -6738,7 +6754,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +2</rdfs:label>
+        <rdfs:label>orbital with mₗ=+2</rdfs:label>
     </owl:Class>
     
 
@@ -6753,7 +6769,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-2</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -2</rdfs:label>
+        <rdfs:label>orbital with mₗ=-2</rdfs:label>
     </owl:Class>
     
 
@@ -6763,20 +6779,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000308">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-3</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-3</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±3</rdfs:label>
+        <rdfs:label>orbital with mₗ=±3</rdfs:label>
     </owl:Class>
     
 
@@ -6791,7 +6815,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +3</rdfs:label>
+        <rdfs:label>orbital with mₗ=+3</rdfs:label>
     </owl:Class>
     
 
@@ -6806,7 +6830,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-3</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -3</rdfs:label>
+        <rdfs:label>orbital with mₗ=-3</rdfs:label>
     </owl:Class>
     
 
@@ -6816,20 +6840,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000311">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-4</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-4</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±4</rdfs:label>
+        <rdfs:label>orbital with mₗ=±4</rdfs:label>
     </owl:Class>
     
 
@@ -6844,7 +6876,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +4</rdfs:label>
+        <rdfs:label>orbital with mₗ=+4</rdfs:label>
     </owl:Class>
     
 
@@ -6859,7 +6891,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-4</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -4</rdfs:label>
+        <rdfs:label>orbital with mₗ=-4</rdfs:label>
     </owl:Class>
     
 
@@ -6869,20 +6901,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000314">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-5</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-5</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±5</rdfs:label>
+        <rdfs:label>orbital with mₗ=±5</rdfs:label>
     </owl:Class>
     
 
@@ -6897,7 +6937,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +5</rdfs:label>
+        <rdfs:label>orbital with mₗ=+5</rdfs:label>
     </owl:Class>
     
 
@@ -6912,7 +6952,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-5</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -5</rdfs:label>
+        <rdfs:label>orbital with mₗ=-5</rdfs:label>
     </owl:Class>
     
 
@@ -6922,20 +6962,28 @@
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000317">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000300"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-6</owl:hasValue>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
-                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
-                    </owl:Restriction>
-                </owl:unionOf>
-            </owl:Class>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000002"/>
+                <owl:someValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-6</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number ±6</rdfs:label>
+        <rdfs:label>orbital with mₗ=±6</rdfs:label>
     </owl:Class>
     
 
@@ -6950,7 +6998,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number +6</rdfs:label>
+        <rdfs:label>orbital with mₗ=+6</rdfs:label>
     </owl:Class>
     
 
@@ -6965,7 +7013,7 @@
                 <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-6</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:label>orbital with magnetic quantum number -6</rdfs:label>
+        <rdfs:label>orbital with mₗ=-6</rdfs:label>
     </owl:Class>
     
 

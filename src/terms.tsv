@@ -96,163 +96,163 @@ ORBITAL:0000094	class	i₅ equation 2	ORBITAL:0000047		for m=6 and m_l=±5
 ORBITAL:0000095	class	i₆ equation 1	ORBITAL:0000047		for m=6 and m_l=±6						
 ORBITAL:0000096	class	i₆ equation 2	ORBITAL:0000047		for m=6 and m_l=±6						
 ORBITAL:0000100	class	atomic orbital by principal, azimuthal, and magnetic quantum number	ORBITAL:0000001								
-ORBITAL:0000101	class	1s₀ orbital	ORBITAL:0000100	'1s orbital' and 'orbital with magnetic quantum number 0'			1	0	0		
-ORBITAL:0000102	class	2s₀ orbital	ORBITAL:0000100	'2s orbital' and 'orbital with magnetic quantum number 0'			2	0	0		
-ORBITAL:0000103	class	2p₀ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with magnetic quantum number 0'	Typically written with cartesian equation pz		2	1	0		
-ORBITAL:0000104	class	2p₁ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with magnetic quantum number +1'	Linear combination of cartesian equations 2px and 2py		2	1			
-ORBITAL:0000105	class	2p₋₁ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with magnetic quantum number -1'	Linear combination of cartesian equations 2px and 2py		2	1			
-ORBITAL:0000106	class	3s₀ orbital	ORBITAL:0000100	'3s orbital' and 'orbital with magnetic quantum number 0'			3	0	0		
-ORBITAL:0000107	class	3p₀ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with magnetic quantum number 0'	Typically written as cartesian equation 3pz		3	1	0		
-ORBITAL:0000108	class	3p₁ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with magnetic quantum number +1'	Linear combination of cartesian equations 3px and 3py		3	1	1		
-ORBITAL:0000109	class	3p₋₁ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with magnetic quantum number -1'	Linear combination of cartesian equations 3px and 3py		3	1	-1		
-ORBITAL:0000110	class	3d₀ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with magnetic quantum number 0'			3	2	0		
-ORBITAL:0000111	class	3d₁ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with magnetic quantum number +1'	Linear combination of cartesian equations 3dxz and 3dyz		3	2	1		
-ORBITAL:0000112	class	3d₋₁ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with magnetic quantum number -1'	Linear combination of cartesian equations 3dxz and 3dyz		3	2	-1		
-ORBITAL:0000113	class	3d₂ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with magnetic quantum number +2'	Linear combination of cartesian equations 3dxy and 3dx²-y² 		3	2	2		
-ORBITAL:0000114	class	3d₋₂ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with magnetic quantum number -2'	Linear combination of cartesian equations 3dxy and 3dx²-y²		3	2	-2		
-ORBITAL:0000115	class	4s₀ orbital	ORBITAL:0000100	'4s orbital' and 'orbital with magnetic quantum number 0'			4	0	0		
-ORBITAL:0000116	class	4p₀ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with magnetic quantum number 0'	4pz		4	1	0		
-ORBITAL:0000117	class	4p₁ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with magnetic quantum number +1'	4px and 4py		4	1	1		
-ORBITAL:0000118	class	4p₋₁ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with magnetic quantum number -2'	4px and 4py		4	1	-1		
-ORBITAL:0000119	class	4d₀ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with magnetic quantum number 0'	4dz² and 4dxz		4	2	0		
-ORBITAL:0000120	class	4d₁ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with magnetic quantum number +1'			4	2	1		
-ORBITAL:0000121	class	4d₋₁ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with magnetic quantum number -1'	4dyz and 		4	2	-1		
-ORBITAL:0000122	class	4d₂ orbital 	ORBITAL:0000100	'4d orbital' and 'orbital with magnetic quantum number +2'	4dxy and 4dx²-y² 		4	2	2		
-ORBITAL:0000123	class	4d₋₂ orbital 	ORBITAL:0000100	'4d orbital' and 'orbital with magnetic quantum number -2'	4dxy and 4dx²-y²		4	2	-2		
-ORBITAL:0000124	class	4f₀ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number 0'			4	3	0		
-ORBITAL:0000125	class	4f₁ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number +1'			4	3	1		
-ORBITAL:0000126	class	4f₋₁ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number -1'			4	3	-1		
-ORBITAL:0000127	class	4f₂ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number +2'			4	3	2		
-ORBITAL:0000128	class	4f₋₂ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number -2'			4	3	-2		
-ORBITAL:0000129	class	4f₃ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number +3'			4	3	3		
-ORBITAL:0000130	class	4f₋₃ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with magnetic quantum number -3'			4	3	-3		
-ORBITAL:0000131	class	5s₀ orbital	ORBITAL:0000100	'5s orbital' and 'orbital with magnetic quantum number 0'			5	0	0		
-ORBITAL:0000132	class	5p₀ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with magnetic quantum number 0'			5	1	0		
-ORBITAL:0000133	class	5p₁ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with magnetic quantum number +1'			5	1	1		
-ORBITAL:0000134	class	5p₋₁ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with magnetic quantum number -1'			5	1	-1		
-ORBITAL:0000135	class	5d₀ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with magnetic quantum number 0'			5	2	0		
-ORBITAL:0000136	class	5d₁ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with magnetic quantum number +1'			5	2	1		
-ORBITAL:0000137	class	5d₋₁ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with magnetic quantum number -1'			5	2	-1		
-ORBITAL:0000138	class	5d₂ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with magnetic quantum number +2'			5	2	2		
-ORBITAL:0000139	class	5d₋₂ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with magnetic quantum number -2'			5	2	-2		
-ORBITAL:0000140	class	5f₀ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number 0'			5	3	0		
-ORBITAL:0000141	class	5f₁ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number +1'			5	3	1		
-ORBITAL:0000142	class	5f₋₁ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number -1'			5	3	-1		
-ORBITAL:0000143	class	5f₂ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number +2'			5	3	2		
-ORBITAL:0000144	class	5f₋₂ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number -2'			5	3	-2		
-ORBITAL:0000145	class	5f₃ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number +3'			5	3	3		
-ORBITAL:0000146	class	5f₋₃ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with magnetic quantum number -3'			5	3	-3		
-ORBITAL:0000147	class	5g₀ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number 0'			5	4	0		
-ORBITAL:0000148	class	5g₁ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number +1'			5	4	1		
-ORBITAL:0000149	class	5g₋₁ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number -1'			5	4	-1		
-ORBITAL:0000150	class	5g₂ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number +2'			5	4	2		
-ORBITAL:0000151	class	5g₋₂ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number -2'			5	4	-2		
-ORBITAL:0000152	class	5g₃ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number +3'			5	4	3		
-ORBITAL:0000153	class	5g₋₃ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number -3'			5	4	-3		
-ORBITAL:0000154	class	5g₄ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number +4'			5	4	4		
-ORBITAL:0000155	class	5g₋₄ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with magnetic quantum number -4'			5	4	-4		
-ORBITAL:0000156	class	6s₀ orbital	ORBITAL:0000100	'6s orbital' and 'orbital with magnetic quantum number 0'			6	0	0		
-ORBITAL:0000157	class	6p₀ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with magnetic quantum number 0'			6	1	0		
-ORBITAL:0000158	class	6p₁ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with magnetic quantum number +1'			6	1	1		
-ORBITAL:0000159	class	6p₋₁ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with magnetic quantum number -1'			6	1	-1		
-ORBITAL:0000160	class	6d₀ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with magnetic quantum number 0'			6	2	0		
-ORBITAL:0000161	class	6d₁ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with magnetic quantum number +1'			6	2	1		
-ORBITAL:0000162	class	6d₋₁ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with magnetic quantum number -1'			6	2	-1		
-ORBITAL:0000163	class	6d₂ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with magnetic quantum number +2'			6	2	2		
-ORBITAL:0000164	class	6d₋₂ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with magnetic quantum number -2'			6	2	-2		
-ORBITAL:0000165	class	6f₀ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number 0'			6	3	0		
-ORBITAL:0000166	class	6f₁ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number +1'			6	3	1		
-ORBITAL:0000167	class	6f₋₁ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number -1'			6	3	-1		
-ORBITAL:0000168	class	6f₂ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number +2'			6	3	2		
-ORBITAL:0000169	class	6f₋₂ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number -2'			6	3	-2		
-ORBITAL:0000170	class	6f₃ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number +3'			6	3	3		
-ORBITAL:0000171	class	6f₋₃ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with magnetic quantum number -3'			6	3	-3		
-ORBITAL:0000172	class	6g₀ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number 0'			6	4	0		
-ORBITAL:0000173	class	6g₁ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number +1'			6	4	1		
-ORBITAL:0000174	class	6g₋₁ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number -1'			6	4	-1		
-ORBITAL:0000175	class	6g₂ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number +2'			6	4	2		
-ORBITAL:0000176	class	6g₋₂ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number -2'			6	4	-2		
-ORBITAL:0000177	class	6g₃ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number +3'			6	4	3		
-ORBITAL:0000178	class	6g₋₃ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number -3'			6	4	-3		
-ORBITAL:0000179	class	6g₄ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number +4'			6	4	4		
-ORBITAL:0000180	class	6g₋₄ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with magnetic quantum number -5'			6	4	-4		
-ORBITAL:0000181	class	6h₀ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number 0'			6	5	0		
-ORBITAL:0000182	class	6h₁ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number +1'			6	5	1		
-ORBITAL:0000183	class	6h₋₁ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number -1'			6	5	-1		
-ORBITAL:0000184	class	6h₂ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number +2'			6	5	2		
-ORBITAL:0000185	class	6h₋₂ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number -2'			6	5	-2		
-ORBITAL:0000186	class	6h₃ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number +3'			6	5	3		
-ORBITAL:0000187	class	6h₋₃ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number -3'			6	5	-3		
-ORBITAL:0000188	class	6h₄ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number +4'			6	5	4		
-ORBITAL:0000189	class	6h₋₄ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number -4'			6	5	-4		
-ORBITAL:0000190	class	6h₅ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number +5'			6	5	5		
-ORBITAL:0000191	class	6h₋₅ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with magnetic quantum number -5'			6	5	-5		
-ORBITAL:0000192	class	7s₀ orbital	ORBITAL:0000100	'7s orbital' and 'orbital with magnetic quantum number 0'			7	0	0		
-ORBITAL:0000193	class	7p₀ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with magnetic quantum number 0'			7	1	0		
-ORBITAL:0000194	class	7p₁ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with magnetic quantum number +1'			7	1	1		
-ORBITAL:0000195	class	7p₋₁ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with magnetic quantum number -2'			7	1	-1		
-ORBITAL:0000196	class	7d₀ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with magnetic quantum number 0'			7	2	0		
-ORBITAL:0000197	class	7d₁ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with magnetic quantum number +1'			7	2	1		
-ORBITAL:0000198	class	7d₋₁ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with magnetic quantum number -1'			7	2	-1		
-ORBITAL:0000199	class	7d₂ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with magnetic quantum number +2'			7	2	2		
-ORBITAL:0000200	class	7d₋₂ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with magnetic quantum number -2'			7	2	-2		
-ORBITAL:0000201	class	7f₀ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number 0'			7	3	0		
-ORBITAL:0000202	class	7f₁ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number +1'			7	3	1		
-ORBITAL:0000203	class	7f₋₁ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number -1'			7	3	-1		
-ORBITAL:0000204	class	7f₂ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number +2'			7	3	2		
-ORBITAL:0000205	class	7f₋₂ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number -2'			7	3	-2		
-ORBITAL:0000206	class	7f₃ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number +3'			7	3	3		
-ORBITAL:0000207	class	7f₋₃ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with magnetic quantum number -3'			7	3	-3		
-ORBITAL:0000208	class	7g₀ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number 0'			7	4	0		
-ORBITAL:0000209	class	7g₁ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number +1'			7	4	1		
-ORBITAL:0000210	class	7g₋₁ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number +1'			7	4	-1		
-ORBITAL:0000211	class	7g₂ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number +2'			7	4	2		
-ORBITAL:0000212	class	7g₋₂ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number -2'			7	4	-2		
-ORBITAL:0000213	class	7g₃ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number +3'			7	4	3		
-ORBITAL:0000214	class	7g₋₃ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number -3'			7	4	-3		
-ORBITAL:0000215	class	7g₄ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number +4'			7	4	4		
-ORBITAL:0000216	class	7g₋₄ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with magnetic quantum number -4'			7	4	-4		
-ORBITAL:0000217	class	7h₀ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number 0'			7	5	0		
-ORBITAL:0000218	class	7h₁ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number +1'			7	5	1		
-ORBITAL:0000219	class	7h₋₁ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number -1'			7	5	-1		
-ORBITAL:0000220	class	7h₂ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number +2'			7	5	2		
-ORBITAL:0000221	class	7h₋₂ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number -2'			7	5	-2		
-ORBITAL:0000222	class	7h₃ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number +3'			7	5	3		
-ORBITAL:0000223	class	7h₋₃ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number -3'			7	5	-3		
-ORBITAL:0000224	class	7h₄ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number +4'			7	5	4		
-ORBITAL:0000225	class	7h₋₄ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number -4'			7	5	-4		
-ORBITAL:0000226	class	7h₅ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number +5'			7	5	5		
-ORBITAL:0000227	class	7h₋₅ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with magnetic quantum number -5'			7	5	-5		
-ORBITAL:0000228	class	7i₀ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number 0'			7	6	0		
-ORBITAL:0000229	class	7i₁ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +1'			7	6	1		
-ORBITAL:0000230	class	7i₋₁ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -1'			7	6	-1		
-ORBITAL:0000231	class	7i₂ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +2'			7	6	2		
-ORBITAL:0000232	class	7i₋₂ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -2'			7	6	-2		
-ORBITAL:0000233	class	7i₃ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +3'			7	6	3		
-ORBITAL:0000234	class	7i₋₃ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -3'			7	6	-3		
-ORBITAL:0000235	class	7i₄ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +4'			7	6	4		
-ORBITAL:0000236	class	7i₋₄ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -4'			7	6	-4		
-ORBITAL:0000237	class	7i₅ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +5'			7	6	5		
-ORBITAL:0000238	class	7i₋₅ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -5'			7	6	-5		
-ORBITAL:0000239	class	7i₆ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number +6'			7	6	6		
-ORBITAL:0000240	class	7i₋₆ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with magnetic quantum number -6'			7	6	-6		
+ORBITAL:0000101	class	1s₀ orbital	ORBITAL:0000100	'1s orbital' and 'orbital with mₗ=0'			1	0	0		
+ORBITAL:0000102	class	2s₀ orbital	ORBITAL:0000100	'2s orbital' and 'orbital with mₗ=0'			2	0	0		
+ORBITAL:0000103	class	2p₀ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with mₗ=0'	Typically written with cartesian equation pz		2	1	0		
+ORBITAL:0000104	class	2p₁ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with mₗ=+1'	Linear combination of cartesian equations 2px and 2py		2	1			
+ORBITAL:0000105	class	2p₋₁ orbital	ORBITAL:0000100	'2p orbital' and 'orbital with mₗ=-1'	Linear combination of cartesian equations 2px and 2py		2	1			
+ORBITAL:0000106	class	3s₀ orbital	ORBITAL:0000100	'3s orbital' and 'orbital with mₗ=0'			3	0	0		
+ORBITAL:0000107	class	3p₀ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with mₗ=0'	Typically written as cartesian equation 3pz		3	1	0		
+ORBITAL:0000108	class	3p₁ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with mₗ=+1'	Linear combination of cartesian equations 3px and 3py		3	1	1		
+ORBITAL:0000109	class	3p₋₁ orbital	ORBITAL:0000100	'3p orbital' and 'orbital with mₗ=-1'	Linear combination of cartesian equations 3px and 3py		3	1	-1		
+ORBITAL:0000110	class	3d₀ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with mₗ=0'			3	2	0		
+ORBITAL:0000111	class	3d₁ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with mₗ=+1'	Linear combination of cartesian equations 3dxz and 3dyz		3	2	1		
+ORBITAL:0000112	class	3d₋₁ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with mₗ=-1'	Linear combination of cartesian equations 3dxz and 3dyz		3	2	-1		
+ORBITAL:0000113	class	3d₂ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with mₗ=+2'	Linear combination of cartesian equations 3dxy and 3dx²-y² 		3	2	2		
+ORBITAL:0000114	class	3d₋₂ orbital	ORBITAL:0000100	'3d orbital' and 'orbital with mₗ=-2'	Linear combination of cartesian equations 3dxy and 3dx²-y²		3	2	-2		
+ORBITAL:0000115	class	4s₀ orbital	ORBITAL:0000100	'4s orbital' and 'orbital with mₗ=0'			4	0	0		
+ORBITAL:0000116	class	4p₀ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with mₗ=0'	4pz		4	1	0		
+ORBITAL:0000117	class	4p₁ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with mₗ=+1'	4px and 4py		4	1	1		
+ORBITAL:0000118	class	4p₋₁ orbital	ORBITAL:0000100	'4p orbital' and 'orbital with mₗ=-2'	4px and 4py		4	1	-1		
+ORBITAL:0000119	class	4d₀ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with mₗ=0'	4dz² and 4dxz		4	2	0		
+ORBITAL:0000120	class	4d₁ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with mₗ=+1'			4	2	1		
+ORBITAL:0000121	class	4d₋₁ orbital	ORBITAL:0000100	'4d orbital' and 'orbital with mₗ=-1'	4dyz and 		4	2	-1		
+ORBITAL:0000122	class	4d₂ orbital 	ORBITAL:0000100	'4d orbital' and 'orbital with mₗ=+2'	4dxy and 4dx²-y² 		4	2	2		
+ORBITAL:0000123	class	4d₋₂ orbital 	ORBITAL:0000100	'4d orbital' and 'orbital with mₗ=-2'	4dxy and 4dx²-y²		4	2	-2		
+ORBITAL:0000124	class	4f₀ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=0'			4	3	0		
+ORBITAL:0000125	class	4f₁ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=+1'			4	3	1		
+ORBITAL:0000126	class	4f₋₁ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=-1'			4	3	-1		
+ORBITAL:0000127	class	4f₂ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=+2'			4	3	2		
+ORBITAL:0000128	class	4f₋₂ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=-2'			4	3	-2		
+ORBITAL:0000129	class	4f₃ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=+3'			4	3	3		
+ORBITAL:0000130	class	4f₋₃ orbital	ORBITAL:0000100	'4f orbital' and 'orbital with mₗ=-3'			4	3	-3		
+ORBITAL:0000131	class	5s₀ orbital	ORBITAL:0000100	'5s orbital' and 'orbital with mₗ=0'			5	0	0		
+ORBITAL:0000132	class	5p₀ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with mₗ=0'			5	1	0		
+ORBITAL:0000133	class	5p₁ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with mₗ=+1'			5	1	1		
+ORBITAL:0000134	class	5p₋₁ orbital	ORBITAL:0000100	'5p orbital' and 'orbital with mₗ=-1'			5	1	-1		
+ORBITAL:0000135	class	5d₀ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with mₗ=0'			5	2	0		
+ORBITAL:0000136	class	5d₁ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with mₗ=+1'			5	2	1		
+ORBITAL:0000137	class	5d₋₁ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with mₗ=-1'			5	2	-1		
+ORBITAL:0000138	class	5d₂ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with mₗ=+2'			5	2	2		
+ORBITAL:0000139	class	5d₋₂ orbital	ORBITAL:0000100	'5d orbital' and 'orbital with mₗ=-2'			5	2	-2		
+ORBITAL:0000140	class	5f₀ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=0'			5	3	0		
+ORBITAL:0000141	class	5f₁ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=+1'			5	3	1		
+ORBITAL:0000142	class	5f₋₁ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=-1'			5	3	-1		
+ORBITAL:0000143	class	5f₂ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=+2'			5	3	2		
+ORBITAL:0000144	class	5f₋₂ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=-2'			5	3	-2		
+ORBITAL:0000145	class	5f₃ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=+3'			5	3	3		
+ORBITAL:0000146	class	5f₋₃ orbital	ORBITAL:0000100	'5f orbital' and 'orbital with mₗ=-3'			5	3	-3		
+ORBITAL:0000147	class	5g₀ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=0'			5	4	0		
+ORBITAL:0000148	class	5g₁ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=+1'			5	4	1		
+ORBITAL:0000149	class	5g₋₁ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=-1'			5	4	-1		
+ORBITAL:0000150	class	5g₂ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=+2'			5	4	2		
+ORBITAL:0000151	class	5g₋₂ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=-2'			5	4	-2		
+ORBITAL:0000152	class	5g₃ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=+3'			5	4	3		
+ORBITAL:0000153	class	5g₋₃ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=-3'			5	4	-3		
+ORBITAL:0000154	class	5g₄ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=+4'			5	4	4		
+ORBITAL:0000155	class	5g₋₄ orbital	ORBITAL:0000100	'5g orbital' and 'orbital with mₗ=-4'			5	4	-4		
+ORBITAL:0000156	class	6s₀ orbital	ORBITAL:0000100	'6s orbital' and 'orbital with mₗ=0'			6	0	0		
+ORBITAL:0000157	class	6p₀ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with mₗ=0'			6	1	0		
+ORBITAL:0000158	class	6p₁ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with mₗ=+1'			6	1	1		
+ORBITAL:0000159	class	6p₋₁ orbital	ORBITAL:0000100	'6p orbital' and 'orbital with mₗ=-1'			6	1	-1		
+ORBITAL:0000160	class	6d₀ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with mₗ=0'			6	2	0		
+ORBITAL:0000161	class	6d₁ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with mₗ=+1'			6	2	1		
+ORBITAL:0000162	class	6d₋₁ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with mₗ=-1'			6	2	-1		
+ORBITAL:0000163	class	6d₂ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with mₗ=+2'			6	2	2		
+ORBITAL:0000164	class	6d₋₂ orbital	ORBITAL:0000100	'6d orbital' and 'orbital with mₗ=-2'			6	2	-2		
+ORBITAL:0000165	class	6f₀ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=0'			6	3	0		
+ORBITAL:0000166	class	6f₁ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=+1'			6	3	1		
+ORBITAL:0000167	class	6f₋₁ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=-1'			6	3	-1		
+ORBITAL:0000168	class	6f₂ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=+2'			6	3	2		
+ORBITAL:0000169	class	6f₋₂ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=-2'			6	3	-2		
+ORBITAL:0000170	class	6f₃ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=+3'			6	3	3		
+ORBITAL:0000171	class	6f₋₃ orbital	ORBITAL:0000100	'6f orbital' and 'orbital with mₗ=-3'			6	3	-3		
+ORBITAL:0000172	class	6g₀ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=0'			6	4	0		
+ORBITAL:0000173	class	6g₁ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=+1'			6	4	1		
+ORBITAL:0000174	class	6g₋₁ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=-1'			6	4	-1		
+ORBITAL:0000175	class	6g₂ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=+2'			6	4	2		
+ORBITAL:0000176	class	6g₋₂ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=-2'			6	4	-2		
+ORBITAL:0000177	class	6g₃ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=+3'			6	4	3		
+ORBITAL:0000178	class	6g₋₃ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=-3'			6	4	-3		
+ORBITAL:0000179	class	6g₄ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=+4'			6	4	4		
+ORBITAL:0000180	class	6g₋₄ orbital	ORBITAL:0000100	'6g orbital' and 'orbital with mₗ=-5'			6	4	-4		
+ORBITAL:0000181	class	6h₀ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=0'			6	5	0		
+ORBITAL:0000182	class	6h₁ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=+1'			6	5	1		
+ORBITAL:0000183	class	6h₋₁ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=-1'			6	5	-1		
+ORBITAL:0000184	class	6h₂ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=+2'			6	5	2		
+ORBITAL:0000185	class	6h₋₂ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=-2'			6	5	-2		
+ORBITAL:0000186	class	6h₃ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=+3'			6	5	3		
+ORBITAL:0000187	class	6h₋₃ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=-3'			6	5	-3		
+ORBITAL:0000188	class	6h₄ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=+4'			6	5	4		
+ORBITAL:0000189	class	6h₋₄ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=-4'			6	5	-4		
+ORBITAL:0000190	class	6h₅ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=+5'			6	5	5		
+ORBITAL:0000191	class	6h₋₅ orbital	ORBITAL:0000100	'6h orbital' and 'orbital with mₗ=-5'			6	5	-5		
+ORBITAL:0000192	class	7s₀ orbital	ORBITAL:0000100	'7s orbital' and 'orbital with mₗ=0'			7	0	0		
+ORBITAL:0000193	class	7p₀ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with mₗ=0'			7	1	0		
+ORBITAL:0000194	class	7p₁ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with mₗ=+1'			7	1	1		
+ORBITAL:0000195	class	7p₋₁ orbital	ORBITAL:0000100	'7p orbital' and 'orbital with mₗ=-2'			7	1	-1		
+ORBITAL:0000196	class	7d₀ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with mₗ=0'			7	2	0		
+ORBITAL:0000197	class	7d₁ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with mₗ=+1'			7	2	1		
+ORBITAL:0000198	class	7d₋₁ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with mₗ=-1'			7	2	-1		
+ORBITAL:0000199	class	7d₂ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with mₗ=+2'			7	2	2		
+ORBITAL:0000200	class	7d₋₂ orbital	ORBITAL:0000100	'7d orbital' and 'orbital with mₗ=-2'			7	2	-2		
+ORBITAL:0000201	class	7f₀ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=0'			7	3	0		
+ORBITAL:0000202	class	7f₁ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=+1'			7	3	1		
+ORBITAL:0000203	class	7f₋₁ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=-1'			7	3	-1		
+ORBITAL:0000204	class	7f₂ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=+2'			7	3	2		
+ORBITAL:0000205	class	7f₋₂ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=-2'			7	3	-2		
+ORBITAL:0000206	class	7f₃ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=+3'			7	3	3		
+ORBITAL:0000207	class	7f₋₃ orbital	ORBITAL:0000100	'7f orbital' and 'orbital with mₗ=-3'			7	3	-3		
+ORBITAL:0000208	class	7g₀ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=0'			7	4	0		
+ORBITAL:0000209	class	7g₁ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=+1'			7	4	1		
+ORBITAL:0000210	class	7g₋₁ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=+1'			7	4	-1		
+ORBITAL:0000211	class	7g₂ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=+2'			7	4	2		
+ORBITAL:0000212	class	7g₋₂ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=-2'			7	4	-2		
+ORBITAL:0000213	class	7g₃ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=+3'			7	4	3		
+ORBITAL:0000214	class	7g₋₃ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=-3'			7	4	-3		
+ORBITAL:0000215	class	7g₄ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=+4'			7	4	4		
+ORBITAL:0000216	class	7g₋₄ orbital	ORBITAL:0000100	'7g orbital' and 'orbital with mₗ=-4'			7	4	-4		
+ORBITAL:0000217	class	7h₀ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=0'			7	5	0		
+ORBITAL:0000218	class	7h₁ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=+1'			7	5	1		
+ORBITAL:0000219	class	7h₋₁ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=-1'			7	5	-1		
+ORBITAL:0000220	class	7h₂ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=+2'			7	5	2		
+ORBITAL:0000221	class	7h₋₂ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=-2'			7	5	-2		
+ORBITAL:0000222	class	7h₃ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=+3'			7	5	3		
+ORBITAL:0000223	class	7h₋₃ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=-3'			7	5	-3		
+ORBITAL:0000224	class	7h₄ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=+4'			7	5	4		
+ORBITAL:0000225	class	7h₋₄ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=-4'			7	5	-4		
+ORBITAL:0000226	class	7h₅ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=+5'			7	5	5		
+ORBITAL:0000227	class	7h₋₅ orbital	ORBITAL:0000100	'7h orbital' and 'orbital with mₗ=-5'			7	5	-5		
+ORBITAL:0000228	class	7i₀ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=0'			7	6	0		
+ORBITAL:0000229	class	7i₁ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+1'			7	6	1		
+ORBITAL:0000230	class	7i₋₁ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-1'			7	6	-1		
+ORBITAL:0000231	class	7i₂ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+2'			7	6	2		
+ORBITAL:0000232	class	7i₋₂ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-2'			7	6	-2		
+ORBITAL:0000233	class	7i₃ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+3'			7	6	3		
+ORBITAL:0000234	class	7i₋₃ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-3'			7	6	-3		
+ORBITAL:0000235	class	7i₄ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+4'			7	6	4		
+ORBITAL:0000236	class	7i₋₄ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-4'			7	6	-4		
+ORBITAL:0000237	class	7i₅ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+5'			7	6	5		
+ORBITAL:0000238	class	7i₋₅ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-5'			7	6	-5		
+ORBITAL:0000239	class	7i₆ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=+6'			7	6	6		
+ORBITAL:0000240	class	7i₋₆ orbital	ORBITAL:0000100	'7i orbital' and 'orbital with mₗ=-6'			7	6	-6		
 ORBITAL:0000300	class	atomic orbital by magnetic quantum number	ORBITAL:0000001			'has magnetic quantum number' some xsd:integer					
-ORBITAL:0000301	class	orbital with magnetic quantum number 0	ORBITAL:0000300						0		
-ORBITAL:0000302	class	orbital with magnetic quantum number ±1	ORBITAL:0000300			('has magnetic quantum number' value -1) or ('has magnetic quantum number' value 1)					
-ORBITAL:0000303	class	orbital with magnetic quantum number -1	ORBITAL:0000302						-1		
-ORBITAL:0000304	class	orbital with magnetic quantum number +1	ORBITAL:0000302						1		
-ORBITAL:0000305	class	orbital with magnetic quantum number ±2	ORBITAL:0000300			('has magnetic quantum number' value -2) or ('has magnetic quantum number' value 2)					
-ORBITAL:0000306	class	orbital with magnetic quantum number +2	ORBITAL:0000305						2		
-ORBITAL:0000307	class	orbital with magnetic quantum number -2	ORBITAL:0000305						-2		
-ORBITAL:0000308	class	orbital with magnetic quantum number ±3	ORBITAL:0000300			('has magnetic quantum number' value -3) or ('has magnetic quantum number' value 3)					
-ORBITAL:0000309	class	orbital with magnetic quantum number +3	ORBITAL:0000308						3		
-ORBITAL:0000310	class	orbital with magnetic quantum number -3	ORBITAL:0000308						-3		
-ORBITAL:0000311	class	orbital with magnetic quantum number ±4	ORBITAL:0000300			('has magnetic quantum number' value -4) or ('has magnetic quantum number' value 4)					
-ORBITAL:0000312	class	orbital with magnetic quantum number +4	ORBITAL:0000311						4		
-ORBITAL:0000313	class	orbital with magnetic quantum number -4	ORBITAL:0000311						-4		
-ORBITAL:0000314	class	orbital with magnetic quantum number ±5	ORBITAL:0000300			('has magnetic quantum number' value -5) or ('has magnetic quantum number' value 5)					
-ORBITAL:0000315	class	orbital with magnetic quantum number +5	ORBITAL:0000314						5		
-ORBITAL:0000316	class	orbital with magnetic quantum number -5	ORBITAL:0000314						-5		
-ORBITAL:0000317	class	orbital with magnetic quantum number ±6	ORBITAL:0000300			('has magnetic quantum number' value -6) or ('has magnetic quantum number' value 6)					
-ORBITAL:0000318	class	orbital with magnetic quantum number +6	ORBITAL:0000317						6		
-ORBITAL:0000319	class	orbital with magnetic quantum number -6	ORBITAL:0000317						-6		
+ORBITAL:0000301	class	orbital with mₗ=0	ORBITAL:0000300						0		
+ORBITAL:0000302	class	orbital with mₗ=±1	ORBITAL:0000300			'has magnetic quantum number' some {-1, 1}					
+ORBITAL:0000303	class	orbital with mₗ=-1	ORBITAL:0000302						-1		
+ORBITAL:0000304	class	orbital with mₗ=+1	ORBITAL:0000302						1		
+ORBITAL:0000305	class	orbital with mₗ=±2	ORBITAL:0000300			'has magnetic quantum number' some {-2, 2}					
+ORBITAL:0000306	class	orbital with mₗ=+2	ORBITAL:0000305						2		
+ORBITAL:0000307	class	orbital with mₗ=-2	ORBITAL:0000305						-2		
+ORBITAL:0000308	class	orbital with mₗ=±3	ORBITAL:0000300			'has magnetic quantum number' some {-3, 3}					
+ORBITAL:0000309	class	orbital with mₗ=+3	ORBITAL:0000308						3		
+ORBITAL:0000310	class	orbital with mₗ=-3	ORBITAL:0000308						-3		
+ORBITAL:0000311	class	orbital with mₗ=±4	ORBITAL:0000300			'has magnetic quantum number' some {-4, 4}					
+ORBITAL:0000312	class	orbital with mₗ=+4	ORBITAL:0000311						4		
+ORBITAL:0000313	class	orbital with mₗ=-4	ORBITAL:0000311						-4		
+ORBITAL:0000314	class	orbital with mₗ=±5	ORBITAL:0000300			'has magnetic quantum number' some {-5, 5}					
+ORBITAL:0000315	class	orbital with mₗ=+5	ORBITAL:0000314						5		
+ORBITAL:0000316	class	orbital with mₗ=-5	ORBITAL:0000314						-5		
+ORBITAL:0000317	class	orbital with mₗ=±6	ORBITAL:0000300			'has magnetic quantum number' some {-6, 6}					
+ORBITAL:0000318	class	orbital with mₗ=+6	ORBITAL:0000317						6		
+ORBITAL:0000319	class	orbital with mₗ=-6	ORBITAL:0000317						-6		
