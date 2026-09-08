@@ -6,6 +6,8 @@ convert:
       --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --template src/roots.tsv \
+      --template src/properties.tsv \
       --template src/orbitals.tsv \
       --output src/tmp.owl
     robot merge \

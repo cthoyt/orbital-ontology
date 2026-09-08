@@ -1,0 +1,4 @@
+identifier	type	label	description
+ID	TYPE	AT rdfs:label^^xsd:string	AT dc:description^^xsd:string
+ORBITAL:0000001	class	atomic orbital
+ORBITAL:0100000	class	molecular orbital

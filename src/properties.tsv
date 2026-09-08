@@ -1,0 +1,6 @@
+identifier	type	label	description	see also	DOMAIN	range	CHARACTERISTIC
+ID	TYPE	AT rdfs:label^^xsd:string	AT dc:description^^xsd:string		DOMAIN	RANGE	CHARACTERISTIC
+ORBITAL:1000000	data property	has principal quantum number	n, takes on natural values [1,2,3,...)	https://en.wikipedia.org/wiki/Principal_quantum_number	'atomic orbital'	xsd:positiveInteger	functional
+ORBITAL:1000001	data property	has azimuthal quantum number	l, takes on non-negative integer values between [0, n-1]	https://en.wikipedia.org/wiki/Azimuthal_quantum_number	'atomic orbital'	xsd:nonNegativeInteger	functional
+ORBITAL:1000002	data property	has magnetic quantum number	m_l, takes on integer values between [-l, l]	https://en.wikipedia.org/wiki/Magnetic_quantum_number	'atomic orbital'	xsd:integer	functional
+ORBITAL:1000003	data property	has spin magnetic quantum number	m_s, for an electron can be one of {-1/2, 1/2}	https://en.wikipedia.org/wiki/Spin_quantum_number

@@ -157,12 +157,6 @@
 
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000002">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000000"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>atomic orbital by principle quantum number</rdfs:label>
     </owl:Class>
     
@@ -277,12 +271,6 @@
 
     <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0000010">
         <rdfs:subClassOf rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000001"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label>atomic orbital by azimuthal quantum number</rdfs:label>
     </owl:Class>
     
@@ -370,7 +358,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000001"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</owl:hasValue>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>h orbital</rdfs:label>
@@ -385,7 +373,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://w3id.org/biopragmatics/orbital/term/1000001"/>
-                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</owl:hasValue>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</owl:hasValue>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>i orbital</rdfs:label>
@@ -907,7 +895,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>ss orbital</rdfs:label>
+        <rdfs:label>sz⁰ orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1341,7 +1329,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>1ss</rdfs:label>
+        <rdfs:label>1sz⁰</rdfs:label>
     </owl:Class>
     
 
@@ -1358,7 +1346,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>2ss</rdfs:label>
+        <rdfs:label>2sz⁰</rdfs:label>
     </owl:Class>
     
 
@@ -1426,7 +1414,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>3ss</rdfs:label>
+        <rdfs:label>3sz⁰</rdfs:label>
     </owl:Class>
     
 
