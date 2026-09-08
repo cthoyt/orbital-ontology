@@ -1,4 +1,5 @@
 format:
+    uv run --script lint.py
     npx --yes prettier --check --prose-wrap always --write '**/*.md'
 
 convert:
