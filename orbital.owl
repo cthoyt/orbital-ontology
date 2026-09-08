@@ -6,13 +6,16 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:purl="http://purl.obolibrary.org/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:dcterms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://github.com/cthoyt/orbital-ontology/raw/refs/heads/main/orbital.owl">
+        <purl:IAO_0000700 rdf:resource="http://w3id.org/biopragmatics/orbital/term/0000001"/>
+        <purl:IAO_0000700 rdf:resource="http://w3id.org/biopragmatics/orbital/term/0100000"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
-        <dcterms:description>An ontology for atomic orbitals, molecular orbitals, and other orbitals.</dcterms:description>
+        <dcterms:description xml:lang="en">An ontology for atomic and molecular orbitals</dcterms:description>
         <dcterms:license rdf:resource="https://spdx.org/licenses/CC0-1.0"/>
-        <dcterms:title>Orbital Ontology</dcterms:title>
+        <dcterms:title xml:lang="en">Orbital Ontology</dcterms:title>
         <doap:Repository rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/cthoyt/orbital-ontology</doap:Repository>
     </owl:Ontology>
     
@@ -26,6 +29,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/IAO_0000700 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/IAO_0000700">
+        <rdfs:label>has ontology root term</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -964,7 +975,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>dz2 orbital</rdfs:label>
+        <rdfs:label>dz² orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1032,7 +1043,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>dx2-y2 orbital</rdfs:label>
+        <rdfs:label>dx²-y² orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1049,7 +1060,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fz3 orbital</rdfs:label>
+        <rdfs:label>fz³ orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1066,7 +1077,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fxz2 orbital</rdfs:label>
+        <rdfs:label>fxz² orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1083,7 +1094,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fyz2 orbital</rdfs:label>
+        <rdfs:label>fyz² orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1117,7 +1128,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fz(x2-y2) orbital</rdfs:label>
+        <rdfs:label>fz(x²-y²) orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1134,7 +1145,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fx(x2-3y2) orbital</rdfs:label>
+        <rdfs:label>fx(x²-3y²) orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1151,7 +1162,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>fy(3x2-y2) orbital</rdfs:label>
+        <rdfs:label>fy(3x²-y²) orbital</rdfs:label>
     </owl:Class>
     
 
@@ -1168,7 +1179,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gz4</rdfs:label>
+        <rdfs:label>gz⁴</rdfs:label>
     </owl:Class>
     
 
@@ -1185,7 +1196,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gz3x</rdfs:label>
+        <rdfs:label>gz³x</rdfs:label>
     </owl:Class>
     
 
@@ -1202,7 +1213,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gz3y</rdfs:label>
+        <rdfs:label>gz³y</rdfs:label>
     </owl:Class>
     
 
@@ -1219,7 +1230,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gz2(x2-y2)</rdfs:label>
+        <rdfs:label>gz²(x²-y²)</rdfs:label>
     </owl:Class>
     
 
@@ -1236,7 +1247,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gxyz2</rdfs:label>
+        <rdfs:label>gxyz²</rdfs:label>
     </owl:Class>
     
 
@@ -1253,7 +1264,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gz(x3-3xy2)</rdfs:label>
+        <rdfs:label>gz(x³-3xy²)</rdfs:label>
     </owl:Class>
     
 
@@ -1270,7 +1281,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gy(3x2-y2)z</rdfs:label>
+        <rdfs:label>gy(3x²-y²)z</rdfs:label>
     </owl:Class>
     
 
@@ -1287,7 +1298,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gx4-6x2y2+y4</rdfs:label>
+        <rdfs:label>gx⁴-6x²y²+y⁴</rdfs:label>
     </owl:Class>
     
 
@@ -1304,7 +1315,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>gxy(x2-y2)</rdfs:label>
+        <rdfs:label>gxy(x²-y²)</rdfs:label>
     </owl:Class>
     
 
@@ -1483,7 +1494,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>3dz2</rdfs:label>
+        <rdfs:label>3dz²</rdfs:label>
     </owl:Class>
     
 
@@ -1542,8 +1553,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <rdfs:label>3dx2-y2</rdfs:label>
         <rdfs:label>3dxy</rdfs:label>
+        <rdfs:label>3dx²-y²</rdfs:label>
     </owl:Class>
     
 
@@ -1892,6 +1903,14 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label>orbital with magnetic quantum number -6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/biopragmatics/orbital/term/0100000 -->
+
+    <owl:Class rdf:about="http://w3id.org/biopragmatics/orbital/term/0100000">
+        <rdfs:label>molecular orbital</rdfs:label>
     </owl:Class>
     
 
